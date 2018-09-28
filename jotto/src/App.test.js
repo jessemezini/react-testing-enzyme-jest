@@ -50,8 +50,6 @@ it('"getSecretWord" runs on App mout', () => {
   const props = {
     getSecretWord: getSecretWordMock,
     success: false,
-    gaveUp: false,
-    secretWord: 'party',
     guessedWords: [],
   };
 
